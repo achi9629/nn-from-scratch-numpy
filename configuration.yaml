@@ -1,0 +1,11 @@
+seed: 42
+epochs: 15
+batch_size: 64
+
+layer_dims: [784, 256, 128, 10]
+
+optimizer:
+  otype: 'Adam'  ## 'SGD', 'Momentum_SGD', 'NAG', 'Adagrad', 'RMSProp', 'Adam'
+
+# cd Research/Kaggle/Prep/Day_6
+# conda activate env_dependencies/A100/
